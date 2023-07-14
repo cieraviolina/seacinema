@@ -1,0 +1,1 @@
+<?php $conn = mysqli_connect("localhost", "root", "", "sea_cinema"); ?>

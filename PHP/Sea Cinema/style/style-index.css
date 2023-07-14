@@ -1,0 +1,121 @@
+/* Container */
+.container {
+    height: 90vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+  
+p {
+    font-size: 2rem;
+}
+  
+p span {
+    color: #1a73e8;
+}
+
+.content {
+    width: 172vh;
+    display: flex;
+    margin: 1rem;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+/* card */
+
+.card {
+    width: 190px;
+    height: 23rem;
+    margin: 2rem;
+    padding: .8em;
+    background: #f5f5f5;
+    color: #252525;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+   
+.card-img {
+    background-color: #1a73e8;
+    height: 60%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+}
+
+.card-img img {
+    height: 100%;
+    width: 100%;
+}
+   
+.card-info {
+    padding-top: 10%;
+}
+
+.card-info a {
+    color: #212121;
+}
+
+/* svg {
+    width: 20px;
+    height: 20px;
+} */
+   
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+   
+/*Text*/
+.text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+   
+/*Button*/
+.card-button {
+    /* border: 1px solid #252525;
+    border-radius: 50px;
+    padding: .3em; */
+    /* margin-right: 0.3em; */
+    bottom: 0;
+    display: flex;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.card-button a {
+    color: #212121;
+}
+
+/*Hover*/
+.card-img:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(92, 92, 93, 0.25) 0px 13px 47px -5px, rgba(49, 49, 50, 0.3) 0px 8px 16px -8px;
+}
+
+.card-info a:hover {
+    color: #1a73e8;
+    transition: 0.7s ease;
+}
+   
+.card-button a:hover {
+    color: #1a73e8;
+    transition: 0.7s ease;
+}

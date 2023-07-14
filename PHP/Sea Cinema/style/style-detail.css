@@ -1,0 +1,35 @@
+.container {
+    padding: 100px 0;
+    letter-spacing: 2px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 7rem;
+}
+
+.movie-img {
+    width: 25%;
+}
+
+.movie-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    padding: 45px 0 0 80px;
+}
+
+.wrapper a {
+    position: absolute;
+    border: 2px solid #1a73e8;
+    padding: 5px;
+    margin-top: 2rem;
+    color: #f5f5f5;
+}
+
+.wrapper a:hover {
+    color: #1a73e8;
+}
